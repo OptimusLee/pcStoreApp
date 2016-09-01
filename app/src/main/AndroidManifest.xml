@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cuanlee.pcstore_application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".views.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".views.Home" />
+        <activity android:name=".views.RAM_Home" />
+        <activity android:name=".views.View_RAM" />
+        <activity android:name=".views.delete_ram" />
+        <activity android:name=".views.Add_RAM" />
+        <activity android:name=".views.RAM_Detail" />
+        <activity android:name=".views.Update_View_All" />
+        <activity android:name=".views.Update_RAM"></activity>
+    </application>
+
+</manifest>
